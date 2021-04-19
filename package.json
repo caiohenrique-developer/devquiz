@@ -1,0 +1,32 @@
+{
+  "name": "devquiz",
+  "description": ":speech_balloon: Learning something new has never been so fun",
+  "main": "index.js",
+  "repository": "https://github.com/caiohenrique-developer/devquiz.git",
+  "bugs": {
+    "url": "https://github.com/caiohenrique-developer/devquiz/issues"
+  },
+  "author": "Caio Henrique <caiohenrique.developer@gmail.com> (https://github.com/caiohenrique-developer)",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "keywords": [],
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "./.cz-config.js"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
+    "commitizen": "^4.2.3",
+    "cz-customizable": "^6.3.0",
+    "husky": "^6.0.0"
+  }
+}
